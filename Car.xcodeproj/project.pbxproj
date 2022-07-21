@@ -10,12 +10,15 @@
 		CA51075A2889F86500FAF270 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = CA5107592889F86500FAF270 /* AppDelegate.swift */; };
 		CA51075C2889F86500FAF270 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = CA51075B2889F86500FAF270 /* SceneDelegate.swift */; };
 		CA51075E2889F86500FAF270 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = CA51075D2889F86500FAF270 /* ViewController.swift */; };
-		CA5107612889F86500FAF270 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = CA51075F2889F86500FAF270 /* Main.storyboard */; };
 		CA5107632889F86600FAF270 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = CA5107622889F86600FAF270 /* Assets.xcassets */; };
 		CA5107662889F86600FAF270 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = CA5107642889F86600FAF270 /* LaunchScreen.storyboard */; };
 		CA5107712889F86600FAF270 /* CarTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = CA5107702889F86600FAF270 /* CarTests.swift */; };
 		CA51077B2889F86600FAF270 /* CarUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = CA51077A2889F86600FAF270 /* CarUITests.swift */; };
 		CA51077D2889F86600FAF270 /* CarUITestsLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = CA51077C2889F86600FAF270 /* CarUITestsLaunchTests.swift */; };
+		CA51078C2889F91000FAF270 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = CA51078A2889F90F00FAF270 /* Main.storyboard */; };
+		CA51078E2889F92100FAF270 /* Enum.swift in Sources */ = {isa = PBXBuildFile; fileRef = CA51078D2889F92100FAF270 /* Enum.swift */; };
+		CA5107902889F92500FAF270 /* StartViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = CA51078F2889F92500FAF270 /* StartViewController.swift */; };
+		CA5107922889F92B00FAF270 /* Extension + UIView.swift in Sources */ = {isa = PBXBuildFile; fileRef = CA5107912889F92A00FAF270 /* Extension + UIView.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -40,7 +43,6 @@
 		CA5107592889F86500FAF270 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		CA51075B2889F86500FAF270 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
 		CA51075D2889F86500FAF270 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
-		CA5107602889F86500FAF270 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		CA5107622889F86600FAF270 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		CA5107652889F86600FAF270 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		CA5107672889F86600FAF270 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
@@ -49,6 +51,10 @@
 		CA5107762889F86600FAF270 /* CarUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = CarUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		CA51077A2889F86600FAF270 /* CarUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CarUITests.swift; sourceTree = "<group>"; };
 		CA51077C2889F86600FAF270 /* CarUITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CarUITestsLaunchTests.swift; sourceTree = "<group>"; };
+		CA51078B2889F90F00FAF270 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = "../../../../Library/Mobile Documents/com~apple~CloudDocs/Documents/TeechmeSkeels/Car/Car/Base.lproj/Main.storyboard"; sourceTree = "<group>"; };
+		CA51078D2889F92100FAF270 /* Enum.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = Enum.swift; path = "../../../../Library/Mobile Documents/com~apple~CloudDocs/Documents/TeechmeSkeels/Car/Car/Enum.swift"; sourceTree = "<group>"; };
+		CA51078F2889F92500FAF270 /* StartViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = StartViewController.swift; path = "../../../../Library/Mobile Documents/com~apple~CloudDocs/Documents/TeechmeSkeels/Car/Car/StartViewController.swift"; sourceTree = "<group>"; };
+		CA5107912889F92A00FAF270 /* Extension + UIView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = "Extension + UIView.swift"; path = "../../../../Library/Mobile Documents/com~apple~CloudDocs/Documents/TeechmeSkeels/Car/Car/Extension + UIView.swift"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -102,10 +108,13 @@
 				CA5107592889F86500FAF270 /* AppDelegate.swift */,
 				CA51075B2889F86500FAF270 /* SceneDelegate.swift */,
 				CA51075D2889F86500FAF270 /* ViewController.swift */,
-				CA51075F2889F86500FAF270 /* Main.storyboard */,
+				CA51078A2889F90F00FAF270 /* Main.storyboard */,
 				CA5107622889F86600FAF270 /* Assets.xcassets */,
 				CA5107642889F86600FAF270 /* LaunchScreen.storyboard */,
 				CA5107672889F86600FAF270 /* Info.plist */,
+				CA51078D2889F92100FAF270 /* Enum.swift */,
+				CA51078F2889F92500FAF270 /* StartViewController.swift */,
+				CA5107912889F92A00FAF270 /* Extension + UIView.swift */,
 			);
 			path = Car;
 			sourceTree = "<group>";
@@ -137,6 +146,7 @@
 				CA5107522889F86500FAF270 /* Sources */,
 				CA5107532889F86500FAF270 /* Frameworks */,
 				CA5107542889F86500FAF270 /* Resources */,
+				CA5107892889F88000FAF270 /* ShellScript */,
 			);
 			buildRules = (
 			);
@@ -231,9 +241,9 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				CA51078C2889F91000FAF270 /* Main.storyboard in Resources */,
 				CA5107662889F86600FAF270 /* LaunchScreen.storyboard in Resources */,
 				CA5107632889F86600FAF270 /* Assets.xcassets in Resources */,
-				CA5107612889F86500FAF270 /* Main.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -253,13 +263,36 @@
 		};
 /* End PBXResourcesBuildPhase section */
 
+/* Begin PBXShellScriptBuildPhase section */
+		CA5107892889F88000FAF270 /* ShellScript */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+			);
+			outputFileListPaths = (
+			);
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "export PATH=\"$PATH:/opt/homebrew/bin\"\nif which swiftlint > /dev/null; then\n  swiftlint\nelse\n  echo \"warning: SwiftLint not installed, download from https://github.com/realm/SwiftLint\"\nfi\n";
+		};
+/* End PBXShellScriptBuildPhase section */
+
 /* Begin PBXSourcesBuildPhase section */
 		CA5107522889F86500FAF270 /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				CA5107902889F92500FAF270 /* StartViewController.swift in Sources */,
 				CA51075E2889F86500FAF270 /* ViewController.swift in Sources */,
+				CA5107922889F92B00FAF270 /* Extension + UIView.swift in Sources */,
 				CA51075A2889F86500FAF270 /* AppDelegate.swift in Sources */,
+				CA51078E2889F92100FAF270 /* Enum.swift in Sources */,
 				CA51075C2889F86500FAF270 /* SceneDelegate.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -297,20 +330,20 @@
 /* End PBXTargetDependency section */
 
 /* Begin PBXVariantGroup section */
-		CA51075F2889F86500FAF270 /* Main.storyboard */ = {
-			isa = PBXVariantGroup;
-			children = (
-				CA5107602889F86500FAF270 /* Base */,
-			);
-			name = Main.storyboard;
-			sourceTree = "<group>";
-		};
 		CA5107642889F86600FAF270 /* LaunchScreen.storyboard */ = {
 			isa = PBXVariantGroup;
 			children = (
 				CA5107652889F86600FAF270 /* Base */,
 			);
 			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+		CA51078A2889F90F00FAF270 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				CA51078B2889F90F00FAF270 /* Base */,
+			);
+			name = Main.storyboard;
 			sourceTree = "<group>";
 		};
 /* End PBXVariantGroup section */
