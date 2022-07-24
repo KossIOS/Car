@@ -78,7 +78,7 @@ class ViewController: UIViewController {
     
     private func makeCarView() -> UIView {
         let carView = UIImageView(image: UIImage(named: "1"))
-        carView.frame.size = CGSize(width: 150, height: 150)
+        carView.frame.size = CGSize(width: 120, height: 120)
         carView.center = CGPoint(x: view.frame.width / 2 , y: view.frame.height - carView.frame.height)
         view.addSubview(carView)
         return carView
